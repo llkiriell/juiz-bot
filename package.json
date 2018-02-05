@@ -1,0 +1,19 @@
+{
+  "name": "juiz-bot-alpha-1",
+  "version": "1.0.0",
+  "description": "Juiz bot, alpha para selcao",
+  "main": "juiz-index.js",
+  "scripts": {
+    "start":"node juiz-index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "kirie",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "11.3.0"
+  }
+}
