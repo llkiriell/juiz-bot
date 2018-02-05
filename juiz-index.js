@@ -52,7 +52,7 @@ client.on('message', message => {
     if (msje === 'juiz -v' || msje === 'juiz -status') {
         //message.reply('Hola, habla Juiz!');
         //message.channel.sendMessage('Hola, habla Juiz, otra vez!');
-        message.channel.sendMessage("**Juiz** \n*version 1.0-alpha.*\n*status:* Local.");
+        message.channel.sendMessage("**Juiz** \n*version 1.0-alpha.*\n*status:* "+status_juiz);
       }
     if (msje === 'juiz -saldo') {
         //message.reply('Hola, habla Juiz!');
