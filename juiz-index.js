@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var date_server = new Date();
-var status_juiz = "LOCAL";
+var status_juiz = "Heroku";
 
 //Mensaje a la consola
 client.on('ready', () => {
